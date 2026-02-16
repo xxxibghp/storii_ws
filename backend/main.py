@@ -20,12 +20,15 @@ app.add_middleware(
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-BASE_PATH = Path("../")
+BASE_PATH = Path(__file__).resolve().parent.parent
 
-app.mount("/static", StaticFiles(directory="../frontend"), name="static")
+FRONTEND_PATH = Path(__file__).resolve().parent.parent / "frontend"
+
+app.mount("/static", StaticFiles(directory=FRONTEND_PATH), name="static")
+
 @app.get("/")
 def read_index():
-    return FileResponse("../frontend/index.html")
+    return FileResponse(FRONTEND_PATH / "index.html")
 
 class PromptRequest(BaseModel):
     prompt: str
