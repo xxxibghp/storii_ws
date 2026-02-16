@@ -4,3 +4,4 @@ pydantic
 faiss-cpu
 python-dotenv
 numpy
+google-genai
