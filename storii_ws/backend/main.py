@@ -20,7 +20,7 @@ app.add_middleware(
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-BASE_PATH = Path("../")
+BASE_PATH = Path(__file__).resolve().parent.parent
 
 app.mount("/static", StaticFiles(directory="../frontend"), name="static")
 @app.get("/")
