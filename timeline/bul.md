@@ -1,0 +1,16 @@
+- 10/09/2004: ra đời ở Đà Lạt
+- nhỏ: được bác Quyền dạy vỡ lòng Chiến binh, nhập binh 
+- lớp 1: gặp và thân Bum, Bam, Bim
+- 07/2016: được bổ nhiệm Hộ Vệ trường H
+- 30/09/2017: quyết chiến với Per, trở thành bạn với Bul
+- 10/2017: bắt đầu làm nhiệm vụ với Per, Sunnie
+- 12/2018: yêu Sunnie
+- 08/2019: chia tay Sunnie
+- 09/2019 - 06/2020: Đại chiến với BO
+- 07/2020: thăng hàm Thiếu Tá
+- 03/2021: khai mở Thần Nhãn, giết trùm BO
+- 07/2021: thăng hàm Thượng Tá
+- 01/2022: Thủ khoa Tiểu binh Quốc gia 
+- 07/2022: thăng hàm Đại Tá, chăm ba bệnh, hoãn học đại học
+- 09/2023: bay đi Mỹ học đại học, quay lại với Sunnie
+- 06/2026: tốt nghiệp đại học, về VN

@@ -1,0 +1,8 @@
+- 05/2015: lân đầu gặp Hanie
+- 08/2015: vào trường L
+- 10/2016: trở thành người yêu Hanie
+- 06/2018: chia tay Hanie để du học Mỹ
+- 05/2021: tốt nghiệp đại học, học MBA
+- 07/2022: bảo lưu MBA, ba bị bệnh, quay về điều hành công ty
+- 07/2023: ba khỏi bệnh,quay lại với Hanie, bay về Mỹ học tiếp
+- 06/2024: tốt nghiệp MBA

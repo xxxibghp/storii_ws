@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Storii</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/lib/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/theme/tomorrow-night-bright.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/lib/codemirror.min.js"></script>
+
+  <!-- Markdown core -->
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/mode/markdown/markdown.min.js"></script>
+
+  <!-- Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/mode/xml/xml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/mode/css/css.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/mode/htmlmixed/htmlmixed.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/addon/mode/overlay.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.15/addon/display/placeholder.js"></script>
+
+
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h4>Explorer</h4>
+      <div class="tree-container">
+        <ul id="fileList"></ul>
+        <div id="fileTree"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="editor" id="editorPanel">
+        <div class="tabs-bar">
+          <div id="tabs" class="tabs"></div>
+          <div class="editor-right">
+            <label class="autosave-toggle">
+              <input type="checkbox" id="autoSaveToggle" />AutoSave
+            </label>
+            <div id="editorStatus" class="editor-status"></div>
+          </div>
+        </div>
+        <textarea id="editor" placeholder="Choose a file to edit..."></textarea>
+      </div>
+
+      <div id="resizebar" class="ai-footer">
+        <button onclick="runAI()">Run</button>
+        <button onclick="loadRAG()">Load RAG</button>
+        <div id="ragStatusFooter"></div>
+      </div>
+
+      <div class="ai-panel" id="aiPanel">
+        <textarea id="prompt" placeholder="Ask AI..."></textarea>
+        <textarea id="airesp" placeholder="Gemini response..."></textarea>
+      </div>
+
+      <script src="/static/app.js"></script>
+      <script src="app.js"></script>
+</body>
+
+</html>
