@@ -1,5 +1,0 @@
-- lớp 1: gặp và thân Sunnie, Lilie, Nikkie, Sannie
-- 01/09/2015: vào trường N, lần đàu gặp Per, Bum, Bam, Bim
-- 12/2015: chuyển sang trường T hội ngộ Sunnie, Lilie
-- 11/2023: gặp lại Bul
-- 18/02/2024: chính thức yêu Per

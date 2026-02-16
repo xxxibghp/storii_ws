@@ -1,7 +1,0 @@
-- lớp 1: gặp và thân Sunnie, Lilie, Nikkie, 
-- 10/2017: bắt đầu làm nhiệm vụ với Bul, Per
-- 12/2018: yêu Bul
-- 08/2019: chia tay Bul
-- 01/2022: Top4 Tiểu binh Quốc gia 
-- 07/2022: thăng hàm Đại Uý
-- 09/2023: quay lại với Bul
